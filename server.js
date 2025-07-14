@@ -30,5 +30,5 @@ io.on('connection', (socket) => {
 const PORT = process.env.PORT || 4000;
 
 server.listen(PORT, () => {
-  console.log(`🚀 Socket.IO サーバー起動中: http://localhost:${PORT}`);
+  console.log(`🚀 Socket.IO サーバー起動中`);
 });
